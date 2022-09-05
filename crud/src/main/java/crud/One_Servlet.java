@@ -28,7 +28,7 @@ public class One_Servlet extends HttpServlet {
 			RequestDispatcher rd=request.getRequestDispatcher("Display.jsp");
 			rd.include(request, response);
 			PrintWriter out = response.getWriter();
-			out.println("<p style='color:green'>*Update successfully saved.</p>");
+			out.println("<p style='color:green'>*Update Successfully</p>");
 		}
 	}
 
