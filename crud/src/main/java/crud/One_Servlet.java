@@ -22,8 +22,6 @@ public class One_Servlet extends HttpServlet {
 		}
 		else if(submit.equals("edit")) {
 			RequestDispatcher rd=request.getRequestDispatcher("Edit.jsp");
-//			request.setAttribute("name", name);
-//			request.setAttribute("number", mobile_number);
 			rd.forward(request, response);
 		}
 		else if(submit.equals("update")){
